@@ -1,0 +1,48 @@
+<odoo>
+    <template id="s_top_banner" name="Top Banner">
+    <section class="s_top_banner">
+            <link rel="stylesheet" type="text/css" href="/web/static/lib/fontawesome/css/font-awesome.css"/>
+          <div class="banner">
+            <div class="navbarscrol">
+		          <div class="menu-btn">
+                <a href="javascript:void(0);">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+            </div>
+		        <div class="menubars"> 
+		          <div class="text1">We are</div>
+		          <div class="text2">Penguin Apparels</div>
+		          <div class="text3">||</div>
+	          </div>
+          </div>
+    </section>
+</template>
+<template id="s_content_summary" name="content summary">
+    <section class="s_content_summary">
+           <div class="container">
+                <div class="content-summary">
+                    <p>1990,</p>
+                    <h1>Garmenting Solution For Generation </h1>
+                    <p>we are One of the leading apparels manufacturess in india, producing hihg qualityy garments for our customers. We offer a full scale manufacturing solution including a range of services</p>
+                </div>
+           </div>
+    </section>
+</template>
+<template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Penguin.s_top_banner"
+                t-thumbnail="/theme_Penguin/static/src/images/Banner-Mobile-View.jpg"/>
+    </xpath>
+</template>
+<template id="place_intobar" inherit_id="website.snippets" name="Place into bars">
+    <xpath expr="//div[@id='snippet_content']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Penguin.s_content_summary"
+                t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
+    </xpath>
+</template>
+
+
+
+
+</odoo>
