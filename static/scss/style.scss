@@ -1,0 +1,436 @@
+header{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+.max-width{
+    max-width: 100%;
+    padding: 0 40px;
+    margin: auto;
+  }
+.content-summary{
+    padding: 50px 0;
+    p{
+        color: $primary-blue;
+        font-size: 18px;
+    }
+    h1{
+        color: $primary-blue;
+        padding: 10px 0 10px 0;
+        font-size:100px;
+        font-family:$logo-fontfamily;
+    }
+}
+
+
+
+
+.banner{
+    background-repeat: no-repeat;
+    background-image: url(/theme_Penguin/static/src/images/Banner-Web-View.png);
+    background-size: 100%;
+    color:$White-color;
+    transition: all 0.7s ease;
+    .menubars{
+        font-family: $logo-fontfamily;
+        text-align: center;
+        padding: 250px 0;
+    
+    }
+    .text1{
+        text-transform: uppercase;
+        font-size: 15px;
+        transition: all 0.6s ease;
+    }
+    .text3{
+        font-size: 20px;
+        transition: all 0.6s ease;
+        .fa{
+            color:$White-color;
+        }
+    }
+    .text2{
+        font-weight: 600;
+        font-size: 35px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        transition: all 0.6s ease;
+    }
+    .menu-btn{
+        font-size: 23px;
+        cursor: pointer;
+        padding: 25px 0 0 25px;
+        position: absolute;
+        display: none;
+        .fa{
+            color: $hover-color;
+        }
+    }
+} 
+.tonavbar{
+    width: 100%;
+    padding: 35px 0;
+    font-family: $navbar-fontfamily;
+    margin-top: 0;
+    transition: all 0.4s ease;
+    .max-width{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        img{
+            height: 60px;
+            margin-top: -10px;
+        }
+        a{ 
+            text-decoration: none;
+            color:$primary-blue;
+            font-size: 30px;
+            font-family: $logo-fontfamily;
+            transition: 0.8s;
+            margin-bottom: -10px;
+        }
+        a:hover{
+            color:$hover-color;
+        }
+    }
+    .menu{
+        .primary-btn{
+            border: solid;
+            border-color:$primary-blue;
+            border-radius: 8px;
+            margin-left: 25px;
+            .contactbtn{
+                margin-left: 0;
+                margin: 20px 15px;
+            }
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+        a{
+            color:$primary-blue;
+            font-size: 18px;
+            font-weight: 400;
+            margin-left: 25px;
+            text-decoration: none;
+            transition: color 0.6s ease;
+        
+            &:hover{
+                color: $hover-color;
+                
+            }
+        }
+        
+    }
+    .logo{
+    display: none;
+    }
+}
+
+}
+
+/*Footer Is HEre*/
+.footr{
+    max-height: fit-content;
+    max-width: 100%;
+    padding: 50px 90px 50px 40px;
+    background-color:$primary-blue;
+    hr{
+        margin: 20px 0;
+        display: none;
+        width: 350px;
+    }
+    .footer-columns{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;        
+    }
+    ul{
+        margin: 0;
+        li{
+            list-style: none;
+            display: block;
+            margin: 20px 0;
+            font-size: 13px;
+            margin-left: -25px;
+            a{
+                color:$White-color;
+                transition: all 0.5s ease;
+                &:hover{
+                    color: $hover-color;
+                }
+            }
+        }
+    }
+}
+
+.footer-columns .first-column{
+     display: flex;
+}
+.footer-columns .foot-head{
+    font-weight:600;
+    margin-bottom: 35px;
+}
+.first-column .sub-col{
+    margin-right: 35px;
+}
+
+.footr .copyright{
+    margin-top: 50px;
+    font-size: 12px;
+    color: $White-color;
+}
+.footr .second-column img{
+    height: 30px;
+    width: 30px;
+    display: none;
+}
+
+@media(max-width:1220px){
+    .menubars{
+        padding-top: 100px;
+    }
+    .tonavbar{
+        margin-top: -100px;
+    }
+}
+@media(max-width: 1040px){
+
+  .max-width{
+      padding: 0px 35px;
+  }
+  .menubars{
+      padding: 190px 0;
+  }
+    .tonavbar {
+        margin-top: -150px;
+         .logo {
+            a{
+                font-size: 26px;
+            }
+            img{
+                height: 55px;
+            }
+        }
+}
+.footr{
+    padding: 30px 40px 30px 10px;
+    
+    ul li{
+        font-size: 11px;
+        margin: 10px 0;
+        margin-left: -25px;
+    }
+}
+
+}
+
+@media(max-width: 960px){
+    .banner{
+        background-image: url(/theme_Penguin/static/src/images/Banner-Tablet-View.jpg);
+        background-size: 100%;
+        transition: all 0.6s ease;
+        .menubars{
+            padding: 140px 0;
+        }
+        .text1{
+            font-size: 12px;
+            }
+            .text3{
+            font-size: 15px;
+            }
+            .text2{
+            font-size: 25px;
+            }
+    }
+    .content-summary{
+        p{
+            color: $primary-blue;
+            font-size: 18px;
+        }
+        h1{
+            color: $primary-blue;
+            font-size:70px;
+        }
+    }
+    .tonavbar {
+        margin-top: 0px;
+        .menu{
+            li{
+                a{
+                    margin-left: 18px;
+                    font-size: 12px;
+                }
+            }
+        }
+        .logo { 
+            a{
+                font-size: 23px;
+            } 
+          }
+        }
+        
+}
+@media(max-width:848px){
+    .footr{
+        ul li{          
+            margin-left: -15px;
+        }
+    }   
+}
+@media(max-width:800px){
+    .banner{
+        .menubars{
+            padding: 120px 0;
+        }
+        
+            
+     
+    }
+    .tonavbar {
+        .menu{
+            li{
+                a{
+                    margin-left: 5px;
+                }
+            }
+        }
+        .logo { 
+            a{
+                font-size: 18px;
+            } 
+          }
+        }    
+        .footr{
+            ul li{          
+                margin-left: -25px;
+            }
+            .footer-columns{
+                margin-top: 25px;
+                display: block;
+            }
+        }
+}
+
+
+@media(max-width: 700px){
+
+.banner{
+    background-image: url(/theme_Penguin/static/src/images/Banner-Mobile-View.jpg);
+    background-size:100% ;
+    .menubars{
+        padding: 60px 0;
+        .text1{
+            font-size: 10px;
+            }
+            .text3{
+            font-size: 10px;
+            }
+            .text2{
+            font-size: 15px;
+    
+    }
+    }
+    .menu-btn{
+        padding: 30px 0 0 30px;
+        display: block;
+        z-index: 999;
+        
+        i.active:before{
+            content: "\f00d";
+        }
+    }
+    
+    
+}
+
+.content-summary{
+    text-align: center;
+    p{
+        color: $primary-blue;
+        font-size: 16px;
+    }
+    h1{
+        color: $primary-blue;
+        padding: 5px 0 5px 0;
+        font-size:50px;
+    }
+}
+
+
+
+
+
+  .tonavbar {
+    .logo {
+        margin: auto; 
+        a{
+            font-size: 18px;
+        }
+      }
+      .menu.active{
+        left: 0;
+      }
+      .menu{
+      position: absolute;
+      height: 100vh;
+      width: 100%;
+      left: -100%;
+      top: 0;
+      background:$White-color;
+      text-align: center;
+      padding-top: 80px;
+      transition: all 0.3s ease;
+  li{
+      display: block;
+   a{
+      display: inline-block;
+      margin: 17px 0;
+      font-size: 15px;
+  }
+}
+  .logo{
+     display: block;
+     padding-bottom: 20px;
+  a{
+      font-size: 18px;
+  }
+    }
+  .primary-btn{
+      border: none;
+  }
+}
+  }
+
+  .footr{
+    a{
+        display: none;
+    }
+    .foot-head a{
+        display: block;
+        font-weight: normal;
+    }
+    ul li{
+        font-size: 12px;
+    }
+    .footer-columns .first-column{
+        display: inline-block;
+        
+    }
+    .penguin{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .copyright{
+        margin-top: 20px;
+    }
+    .second-column img{
+        margin-right: 20px;
+       display: inline-block;
+    }
+  } 
+
+}
