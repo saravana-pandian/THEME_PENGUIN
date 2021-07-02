@@ -31,7 +31,7 @@
 </template>
 
 <template id="s_content_product_offer" name="product offer">
-    <section class="s_call_to_action o_cc  pt48 pb24 o_colored_level">
+    <section class="centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
         <div class="container">
           <div class="row">
             <div class="col-lg-9 pb16 o_colored_level">
@@ -39,9 +39,53 @@
               <p class="content-paragraphs">It is With High Skill and almost attention to detail, we deliver a wide varity of Products in every segment we cater to. We are trusted by some of the biggest Barands in the apparel world</p>
             </div>
             <div class="col-lg-3 pt8 o_colored_level">
-              <p style="text-align: right;">
+              <p class="centered-content">
                 <a href="/contactus" class="primary-btns">Full Gallery</a>
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+<template id="s_content_product" name="content product">
+      <section class="s_features pt32 pb32 o_colored_level">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Womens-Wear-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/Womens-Wear-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_Penguin/static/src/images/Womens-Wear-Mobile-View.png">
+                    <img class="content-product-image" src="/theme_Penguin/static/src/images/Womens-Wear-Web-View.png" alt="Womens Wear Product"/>
+                    </source>
+                </source>
+              </source>
+            </picture>
+                <h3 class="content-headings">Womens Wear</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Kids-wear-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/Kids-Wear-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_Penguin/static/src/images/Kids-Wear-Mobile-View.png">
+                    <img class="content-product-image" src="/theme_Penguin/static/src/images/Kids-Wear-Web-View.png" alt="Kids Wear Product"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+              <h3 class="content-headings">Kids Wear</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Mens-Wear-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/Mens-Wear-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_Penguin/static/src/images/Mens-Wear-Mobile-View.png">
+                   <img class="content-product-image" src="/theme_Penguin/static/src/images/Mens-Wear-Web-View.png" alt="Mens Wear Product"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+               <h3 class="content-headings">Mens Wear</h3>
             </div>
           </div>
         </div>
@@ -65,6 +109,12 @@
 <template id="place_in_second" inherit_id="website.snippets" name="Place in second">
     <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
         <t t-snippet="theme_Penguin.s_content_product_offer"
+                t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
+    </xpath>
+</template>
+<template id="place_into_one" inherit_id="website.snippets" name="Place into one">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Penguin.s_content_product"
                 t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
     </xpath>
 </template>

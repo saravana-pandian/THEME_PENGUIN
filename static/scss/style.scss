@@ -354,6 +354,13 @@ header{
 
 @media(max-width: 700px){
 
+.centered-content{
+    text-align:center;
+}
+.primary-btns{
+    padding: 15px 55px;
+}
+
 .banner{
     background-image: url(/theme_Penguin/static/src/images/Banner-Mobile-View.jpg);
     background-size:100% ;
