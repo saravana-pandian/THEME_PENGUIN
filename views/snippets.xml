@@ -91,6 +91,44 @@
         </div>
       </section>
 </template>
+<template id="s_content_quality_list" name="content quality list">
+<section class=" centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="content-headings">Why are we That Special?</h3>
+               </div>
+            <div class="col-lg-3 pt8 o_colored_level">
+              <p class="centered-content">
+                <a href="/contactus" class="primary-btns">Send Enquery</a>
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/PenguinApparel-Building-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_Penguin/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
+                    <img class="img img-fluid mx-auto" src="/theme_Penguin/static/src/images/PenguinApparel-Building-Web-View.png" alt="Penguin Apparels Building Image"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+            </div>
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>Design and Devolopment</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Inspect-Logo.png"/>Flexibles and Minimums</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Testing-Loigo.png"/>Prototyping and Samplings</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Metal-Logo.png"/>Fabric Sourcing and Devolopment</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Raw-Matirel-Logo.png"/>Pattern devolopment</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Testing-Loigo.png"/>Quick Order Fullfillment</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>Trusted Quality Standards</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
 
 
 <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
@@ -118,7 +156,12 @@
                 t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
     </xpath>
 </template>
-
+<template id="place_in_three" inherit_id="website.snippets" name="Place in three">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Penguin.s_content_quality_list"
+                t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
+    </xpath>
+</template>
 
 
 
