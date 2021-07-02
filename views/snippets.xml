@@ -117,13 +117,13 @@
             </picture>
             </div>
             <div class="col-lg-6 pt16 pb16 o_colored_level">
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>Design and Devolopment</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Inspect-Logo.png"/>Flexibles and Minimums</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Testing-Loigo.png"/>Prototyping and Samplings</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Metal-Logo.png"/>Fabric Sourcing and Devolopment</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Raw-Matirel-Logo.png"/>Pattern devolopment</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Testing-Loigo.png"/>Quick Order Fullfillment</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>Trusted Quality Standards</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/needle.png"/>Design and Devolopment</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/procces.png.png"/>Flexibles and Minimums</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Inspect-Logo.png"/>Prototyping and Samplings</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/folded.png"/>Fabric Sourcing and Devolopment</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/shirt.png"/>Pattern devolopment</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/timekeep.png"/>Quick Order Fullfillment</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/protection.png"/>Trusted Quality Standards</h2>
             </div>
           </div>
         </div>
@@ -179,16 +179,20 @@
             <div class="row s_nb_column_fixed">
             <div class="o_masonry_col o_snippet_not_selectable col-lg-4 no-padding-margin">
               <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Stretching-Machine-Web-View.png"/><div class="image_text">Stretching</div></div>
+              <br/>
               <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Filling-Machine-Web-View.jpg"/><div class="image_text">Filling</div></div>
+              <br/>
               <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Cutting-Machine-Web-View.jpg"/><div class="image_text">Cutting</div></div>
              
             </div>
             <div class="o_masonry_col o_snippet_not_selectable col-lg-4 no-padding-margin">
               <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Pressing-Machine-Web-View.png"/><div class="image_text">Pressing</div></div>
+              <br/>
               <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Quilting-Machine-Web-View.jpg"/><div class="image_text">Quilting</div></div>
             </div>
             <div class="o_masonry_col o_snippet_not_selectable col-lg-4 no-padding-margin">
               <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Sewing-Machine-Web-View.jpg"/><div class="image_text">Sewing</div></div>
+              <br/>
               <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Washing-Machine-Web-View.png"/><div class="image_text">Washing</div></div>
             </div>
           </div>

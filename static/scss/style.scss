@@ -164,9 +164,14 @@ header{
     width: 50px;
 }
 .image-container{
+    margin-bottom: 5px;
+    background-color: $primary-blue;
     position: relative;
     text-align: center;
     color: white;
+    .texton-image{
+        opacity: 0.5;
+    }
     .image_text{
         position: absolute;
         bottom: 8px;
@@ -193,11 +198,9 @@ header{
 /*content-4 content-process*/
 .no-padding-margin{
     padding: 3px;
-    margin: 0;
+
 }
-.texton-image{
-    padding: 3px 3px;
-}
+
 
 
 
