@@ -29,6 +29,26 @@
            </div>
     </section>
 </template>
+
+<template id="s_content_product_offer" name="product offer">
+    <section class="s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="content-headings">Products That We Offers</h3>
+              <p class="content-paragraphs">It is With High Skill and almost attention to detail, we deliver a wide varity of Products in every segment we cater to. We are trusted by some of the biggest Barands in the apparel world</p>
+            </div>
+            <div class="col-lg-3 pt8 o_colored_level">
+              <p style="text-align: right;">
+                <a href="/contactus" class="primary-btns">Full Gallery</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+
+
 <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
     <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
         <t t-snippet="theme_Penguin.s_top_banner"
@@ -38,6 +58,13 @@
 <template id="place_intobar" inherit_id="website.snippets" name="Place into bars">
     <xpath expr="//div[@id='snippet_content']/div[hasclass('o_panel_body')]" position="inside">
         <t t-snippet="theme_Penguin.s_content_summary"
+                t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
+    </xpath>
+</template>
+
+<template id="place_in_second" inherit_id="website.snippets" name="Place in second">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Penguin.s_content_product_offer"
                 t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
     </xpath>
 </template>
