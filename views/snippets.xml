@@ -110,7 +110,7 @@
               <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
                 <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/PenguinApparel-Building-Web-View.png">
                   <source media="(max-width: 768px)" srcset="/theme_Penguin/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
-                    <img class="img img-fluid mx-auto" src="/theme_Penguin/static/src/images/PenguinApparel-Building-Web-View.png" alt="Penguin Apparels Building Image"/>
+                    <img class="img img-fluid img-max mx-auto" src="/theme_Penguin/static/src/images/PenguinApparel-Building-Web-View.png" alt="Penguin Apparels Building Image"/>
               </source>
                 </source>
               </source>
@@ -129,6 +129,79 @@
         </div>
       </section>
 </template>
+<template id="s_content_process_list" name="Content Process List">
+  <section class=" centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="container">
+          <div class="row">
+          <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="content-headings">Why are we That Special?</h3>
+               </div>
+            <div class="col-lg-3 pt8 o_colored_level">
+              <p style="float:right;" class="centered-content">
+                <a href="/contactus" class="primary-btns">Send Enquery</a>
+              </p>
+            </div>
+          <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <p class="content-paragraphs">We are goiing to launch a rocket to space soon. Just Kidding! But Seriously We can Make wonders with our diverse pool of Machinery. We use latest generation machinary to produce premium quality products.</p>
+              <h6 class="content-paragraphs">And we completely audit our product by</h6>
+               <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <img class="content-logo" src="/theme_Penguin/static/src/images/logos/Raw-Matirel-Logo.png"/>
+            <h3 class="sub-headings">Raw Matierial inspection and testing</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <img class="content-logo" src="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
+            <h3 class="sub-headings">Fusing bond strength testing</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+           <img class="content-logo" src="/theme_Penguin/static/src/images/logos/Testing-Loigo.png"/>
+           <h3 class="sub-headings">Fastener pull strength testing</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <img class="content-logo" src="/theme_Penguin/static/src/images/logos/Metal-Logo.png"/>
+               <h3 class="sub-headings">Metal Deletion test</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+           <img class="content-logo" src="/theme_Penguin/static/src/images/logos/Inspect-Logo.png"/>
+             <h3 class="sub-headings">In Progress Inspection</h3>
+            </div>
+            
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <img class="content-logo" src="/theme_Penguin/static/src/images/logos/Shirt-Logo.png"/>
+             <h3 class="sub-headings">Finished product inspection</h3>
+            </div>
+          </div>
+
+            </div>
+          <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <div class="row s_nb_column_fixed">
+            <div class="o_masonry_col o_snippet_not_selectable col-lg-4 no-padding-margin">
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Stretching-Machine-Web-View.png"/><div class="image_text">Stretching</div></div>
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Filling-Machine-Web-View.jpg"/><div class="image_text">Filling</div></div>
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Cutting-Machine-Web-View.jpg"/><div class="image_text">Cutting</div></div>
+             
+            </div>
+            <div class="o_masonry_col o_snippet_not_selectable col-lg-4 no-padding-margin">
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Pressing-Machine-Web-View.png"/><div class="image_text">Pressing</div></div>
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Quilting-Machine-Web-View.jpg"/><div class="image_text">Quilting</div></div>
+            </div>
+            <div class="o_masonry_col o_snippet_not_selectable col-lg-4 no-padding-margin">
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Sewing-Machine-Web-View.jpg"/><div class="image_text">Sewing</div></div>
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Washing-Machine-Web-View.png"/><div class="image_text">Washing</div></div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</template>
+
+
+
+
+
 
 
 <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
@@ -163,6 +236,11 @@
     </xpath>
 </template>
 
-
+<template id="place_in_four" inherit_id="website.snippets" name="Place in four">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Penguin.s_content_process_list"
+                t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
+    </xpath>
+</template>
 
 </odoo>

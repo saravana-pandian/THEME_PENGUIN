@@ -138,6 +138,10 @@ header{
 }
 
 /*content-2 */
+@mixin headingandcolor {
+    color:$primary-blue;
+    font-family:$logo-fontfamily;
+}
 .content-product-image{
     padding-bottom: 50px;
 }
@@ -147,9 +151,27 @@ header{
     font-family:$primary-font-family;
 }
 .content-headings{
-    color:$primary-blue;
-    font-family:$logo-fontfamily;
+    @include headingandcolor;
     font-size: 30px;
+}
+.sub-headings{
+    @include headingandcolor;
+    font-size: 15px;
+    
+}
+.content-logo{
+    height: 50px;
+    width: 50px;
+}
+.image-container{
+    position: relative;
+    text-align: center;
+    color: white;
+    .image_text{
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+    }
 }
 .primary-btns{
             border: solid;
@@ -168,8 +190,14 @@ header{
         width: 40px;
     }
 }
-
-
+/*content-4 content-process*/
+.no-padding-margin{
+    padding: 3px;
+    margin: 0;
+}
+.texton-image{
+    padding: 3px 3px;
+}
 
 
 
@@ -272,7 +300,7 @@ header{
             width: 20px;
         }
     }
-.img-fluid{
+.img-max{
     width:100%;
 }
 
