@@ -117,13 +117,13 @@
             </picture>
             </div>
             <div class="col-lg-6 pt16 pb16 o_colored_level">
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/nedle.png"/>Design and Devolopment</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/procces.png"/>Flexibles and Minimums</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Inspect-Logo.png"/>Prototyping and Samplings</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/folded.png"/>Fabric Sourcing and Devolopment</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/shirt.png"/>Pattern devolopment</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/timekeep.png"/>Quick Order Fullfillment</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/protection.png"/>Trusted Quality Standards</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/nedle.png"/> Design and Devolopment</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/procces.png"/> Flexibles and Minimums</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Inspect-Logo.png"/> Prototyping and Samplings</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/folded.png"/> Fabric Sourcing and Devolopment</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/shirt.png"/> Pattern devolopment</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/timekeep.png"/> Quick Order Fullfillment</h2>
+              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/protection.png"/> Trusted Quality Standards</h2>
             </div>
           </div>
         </div>
@@ -229,12 +229,8 @@
 <template id="s_content_company_ecosystem" name="content Company EcoSystem">
   <section class="centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-9 pb16 o_colored_level">
-              <h3 class="content-headings">We Care as We Built</h3>
-              <p class="content-paragraphs">This world is for everyone and we ensure we respect resourses and we are certified social friendly as we built these wonderful products for you</p>
-            </div>
-             <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+          <div class="row justifycenter">
+             <div class="pt32 text-center o_colored_level">
              <picture>
               <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Environment-Awarness-Tablet-View.png">
                 <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/Environment-Awarness-Web-View.png">
@@ -244,9 +240,9 @@
                 </source>
               </source>
             </picture>
-              <h3 class="content-headings">Environmental Awarness</h3>
+              <h3 class="content-headings company-system">Environmental Awarness</h3>
             </div>
-            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <div class="pt32 text-center o_colored_level company-systems">
              <picture>
               <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Energy-Managment-Tablet-View.png">
                 <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/Energy-Managment-Web-View.png">
@@ -256,9 +252,9 @@
                 </source>
               </source>
             </picture>
-            <h3 class="content-headings">Energy Management</h3>
+            <h3 class="content-headings company-system">Energy Management</h3>
             </div>
-            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <div class="pt32 text-center o_colored_level company-systems">
             <picture>
               <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Employee-Training-Tablet-View.png">
                 <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/Employee-Training-Web-View.png">
@@ -268,9 +264,9 @@
                 </source>
               </source>
             </picture>
-            <h3 class="content-headings">Employees Employeement</h3>
+            <h3 class="content-headings company-system">Employees Employeement</h3>
             </div>
-            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <div class="pt32 text-center o_colored_level">
             <picture>
               <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Project-Community-Web-View(1).png">
                 <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/Employee-Training-Web-View.png">
@@ -280,7 +276,7 @@
                 </source>
               </source>
             </picture>
-           <h3 class="content-headings">Community Projects</h3>
+           <h3 class="content-headings company-system">Community Projects</h3>
             </div>
           </div>
         </div>

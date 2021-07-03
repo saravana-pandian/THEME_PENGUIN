@@ -8,7 +8,7 @@ header{
     max-width: 100%;
     padding: 0 40px;
     margin: auto;
-  }
+}
 
 
 
@@ -190,7 +190,7 @@ header{
 .content-quality-lists{
     padding:19px 0;
     img{
-        padding:0 13px;
+        margin:0 20px;
         height: 40px;
         width: 40px;
     }
@@ -201,8 +201,16 @@ header{
 
 }
 
-
-
+.company-systems{
+    width:150px;
+    height: 400px;
+}
+.company-system{
+    font-size: 15px;
+}
+.justifycenter{
+    justify-content: center;
+}
 
 
 
@@ -320,6 +328,7 @@ header{
 
 }
 
+
 @media(max-width: 960px){
     .banner{
         background-image: url(/theme_Penguin/static/src/images/Banner-Tablet-View.jpg);
@@ -413,6 +422,7 @@ header{
 
 
 .banner{
+    
     background-image: url(/theme_Penguin/static/src/images/Banner-Mobile-View.jpg);
     background-size:100% ;
     .menubars{

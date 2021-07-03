@@ -16,3 +16,24 @@
   font-weight: 400;
   src: local('PoiretOne Regular'), local('PoiretOne-Regular'), url(/theme_Penguin/static/src/fonts/PoiretOne-Regular.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'BonaNova-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('BonaNova Regular'), local('BonaNova-Regular'), url(/theme_Penguin/static/src/fonts/BonaNova-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PlayfairDisplay Bold'), local('PlayfairDisplay-Bold'), url(/theme_Penguin/static/src/fonts/PlayfairDisplay-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'EBGaramond-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('EBGaramond Bold'), local('EBGaramond-Bold'), url(/theme_Penguin/static/src/fonts/EBGaramond-Bold.ttf) format('truetype');
+}
