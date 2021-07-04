@@ -212,9 +212,16 @@ header{
     justify-content: center;
 }
 
+.footbanner{
+    width: 100%;
+}
 
-
-
+.only_in_mobile{
+    display: none;
+}
+.two_in_row{
+    list-style: none;
+}
 /*Footer Is HEre*/
 .footr{
     max-height: fit-content;
@@ -301,8 +308,9 @@ header{
 }
 
 /*snippet s*/
+
  .content-quality-lists{
-        font-size:15px;
+        font-size:12px;
         text-align: center;
         padding:9px 0;
         img{
@@ -414,11 +422,22 @@ header{
                 display: block;
             }
         }
+        .only_in_mobile{
+            display: block;
+        }
+        .not_in_mobile{
+            display: none;
+        }
+        .two_in_row{
+            font-size: 5px;
+            display: inline-block;
+            padding: 10px 15px;
+        }
 }
 
 
 @media(max-width: 700px){
-
+   
 
 
 .banner{

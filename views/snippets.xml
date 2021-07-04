@@ -117,20 +117,65 @@
             </picture>
             </div>
             <div class="col-lg-6 pt16 pb16 o_colored_level">
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/nedle.png"/> Design and Devolopment</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/procces.png"/> Flexibles and Minimums</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Inspect-Logo.png"/> Prototyping and Samplings</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/folded.png"/> Fabric Sourcing and Devolopment</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/shirt.png"/> Pattern devolopment</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/timekeep.png"/> Quick Order Fullfillment</h2>
-              <h2 class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/protection.png"/> Trusted Quality Standards</h2>
+            <ul class="two_in_row">
+              <li class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/nedle.png"/> Design and Devolopment</li>
+              <li class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/procces.png"/> Flexibles and Minimums</li>
+              </ul>
+              <ul class="two_in_row">
+              <li class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/Inspect-Logo.png"/> Prototyping and Samplings</li>
+              <li class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/folded.png"/> Fabric Sourcing and Devolopment</li>
+              </ul>
+              <ul class="two_in_row">
+              <li class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/shirt.png"/> Pattern devolopment</li>
+              <li class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/timekeep.png"/> Quick Order Fullfillment</li>
+              </ul>
+              <ul class="two_in_row">
+              <li class="content-headings content-quality-lists"><img src="/theme_Penguin/static/src/images/logos/protection.png"/> Trusted Quality Standards</li>
+            </ul>
             </div>
           </div>
         </div>
       </section>
 </template>
 <template id="s_content_process_list" name="Content Process List">
-  <section class=" centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+<section class="s_image_gallery s_image_gallery_show_indicators s_image_gallery_indicators_rounded pt24 o_colored_level o_slideshow only_in_mobile" data-vcss="001" data-columns="3" style="overflow: hidden; height: 459px;" data-snippet="s_image_gallery" data-name="Image Gallery">
+        <div class="container">
+          <div id="slideshow_1625416993716" class="carousel slide" data-ride="carousel" data-interval="0" style="margin: 0 12px;">
+            <div class="carousel-inner" style="padding: 0;">
+              <div class="carousel-item" style="">
+               <img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Stretching-Machine-Web-View.png"/>
+               </div>
+              <div class="carousel-item undefined" style="">
+                <img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Filling-Machine-Web-View.jpg"/>
+               </div>
+              <div class="carousel-item undefined" style="">
+                <img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Cutting-Machine-Web-View.jpg"/>
+             </div>
+              <div class="carousel-item undefined active" style="">
+             <img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Pressing-Machine-Web-View.png"/>
+               </div>
+              <div class="carousel-item undefined" style="">
+               <img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Quilting-Machine-Web-View.jpg"/>
+           </div>
+              <div class="carousel-item undefined" style="">
+            <img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Sewing-Machine-Web-View.jpg"/>
+              </div>
+              <div class="carousel-item undefined" style="">
+                <img class="img img-fluid d-block texton-image" src="/theme_Penguin/static/src/images/Washing-Machine-Web-View.png"/>
+            </div>
+            </div>
+            <a class="carousel-control-prev o_we_no_overlay" href="#slideshow_1625416993716" data-slide="prev" aria-label="Previous" title="Previous">
+              <span class="fa fa-chevron-left fa-2x text-white"/>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next o_we_no_overlay" href="#slideshow_1625416993716" data-slide="next" aria-label="Next" title="Next">
+              <span class="fa fa-chevron-right fa-2x text-white" data-original-title="" title="" aria-describedby="tooltip411103"/>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </section>
+  <section class=" centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level not_in_mobile">
         <div class="container">
           <div class="row">
           <div class="col-lg-9 pb16 o_colored_level">
@@ -269,9 +314,9 @@
             <div class="pt32 text-center o_colored_level">
             <picture>
               <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Project-Community-Web-View(1).png">
-                <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/Employee-Training-Web-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/Project-Community-Web-View.png">
                   <source media="(max-width: 768px)" srcset="/theme_Penguin/static/src/images/Project-Community-Web-View(1).png">
-                    <img class="content-product-image" src="/theme_Penguin/static/src/images/Employee-Training-Web-View.png" alt="Community Project Image"/>
+                    <img class="content-product-image" src="/theme_Penguin/static/src/images/Project-Community-Web-View.png" alt="Community Project Image"/>
               </source>
                 </source>
               </source>
@@ -283,7 +328,38 @@
       </section>
     </template>
 
-
+<template id="s_content_shipping" name="phipping">
+    <section class="centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="content-headings">We ship to 26+ Countries as We are talking</h3>
+                </div>
+            <div class="col-lg-3 pt8 o_colored_level">
+              <p class="centered-content">
+                <a href="/contactus" class="primary-btns">Talk to us</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+<template id="s_content_foot_banner" name="foot banner">
+    <section class="centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="footbanner">
+        <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Footer-Banner-Tablet-View.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/Footer-Banner-Web_View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_Penguin/static/src/images/Footer-Banner-Mobile-View.jpg">
+                    <img src="/theme_Penguin/static/src/images/Footer-Banner-Web_View.png" alt="footer banner image"/>
+                    </source>
+                </source>
+              </source>
+            </picture>
+          <img src="/theme_Penguin/static/src/images/Footer-Banner-Web_View.png" alt="footer banner image"/>
+        </div>
+      </section>
+</template>
 
 
 <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
@@ -338,5 +414,16 @@
                t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
     </xpath>
 </template>
-
+<template id="place_in_seventh" inherit_id="website.snippets" name="Place in seventh">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Penguin.s_content_shipping"
+               t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
+    </xpath>
+</template>
+<template id="place_in_eighth" inherit_id="website.snippets" name="Place in eighth">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Penguin.s_content_foot_banner"
+               t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
+    </xpath>
+</template>
 </odoo>
