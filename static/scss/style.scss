@@ -9,19 +9,6 @@ header{
     padding: 0 40px;
     margin: auto;
   }
-.content-summary{
-    padding: 50px 0;
-    p{
-        color: $primary-blue;
-        font-size: 18px;
-    }
-    h1{
-        color: $primary-blue;
-        padding: 10px 0 10px 0;
-        font-size:100px;
-        font-family:$logo-fontfamily;
-    }
-}
 
 
 
@@ -132,6 +119,63 @@ header{
 
 }
 
+
+/*Content-1 Content-Summary*/
+
+
+.content-summary{
+    padding: 50px 0;
+    p{
+        color: $primary-blue;
+        font-size: 18px;
+    }
+    h1{
+        color: $primary-blue;
+        padding: 10px 0 10px 0;
+        font-size:100px;
+        font-family:$logo-fontfamily;
+    }
+}
+
+/*content-2 */
+.content-product-image{
+    padding-bottom: 50px;
+}
+.content-paragraphs{
+    color:$primary-blue;
+    font-size: 16px;
+    font-family:$primary-font-family;
+}
+.content-headings{
+    color:$primary-blue;
+    font-family:$logo-fontfamily;
+    font-size: 30px;
+}
+.primary-btns{
+            border: solid;
+            border-color:$primary-blue;
+            border-radius: 8px;
+            margin-left: 25px;
+            padding: 15px 20px;
+}
+/*Content-3 Content-quality-list*/
+
+.content-quality-lists{
+    padding:19px 0;
+    img{
+        padding:0 13px;
+        height: 40px;
+        width: 40px;
+    }
+}
+
+
+
+
+
+
+
+
 /*Footer Is HEre*/
 .footr{
     max-height: fit-content;
@@ -216,6 +260,23 @@ header{
             }
         }
 }
+
+/*snippet s*/
+ .content-quality-lists{
+        font-size:15px;
+        text-align: center;
+        padding:9px 0;
+        img{
+            padding:0 10px;
+            height: 20px;
+            width: 20px;
+        }
+    }
+.img-fluid{
+    width:100%;
+}
+
+
 .footr{
     padding: 30px 40px 30px 10px;
     
@@ -318,6 +379,8 @@ header{
 
 @media(max-width: 700px){
 
+
+
 .banner{
     background-image: url(/theme_Penguin/static/src/images/Banner-Mobile-View.jpg);
     background-size:100% ;
@@ -347,6 +410,15 @@ header{
     
 }
 
+/*Snippets */
+
+.centered-content{
+    text-align:center;
+}
+.primary-btns{
+    padding: 15px 55px;
+}
+
 .content-summary{
     text-align: center;
     p{
@@ -359,7 +431,6 @@ header{
         font-size:50px;
     }
 }
-
 
 
 
