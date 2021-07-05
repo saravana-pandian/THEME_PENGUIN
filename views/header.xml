@@ -33,11 +33,11 @@
                   <img src="/theme_Penguin/static/src/images/logos/PenguinApparels-Logo.png" alt="Penguin Apparels Logo"/>
                   <a href="#">Penguin Apparels</a>
                 </div>
-                <li><a href="#">About us</a></li>
+                <li><a href="/contactus">About us</a></li>
                 <li><a href="#">Product</a></li>
                 <li><a href="#">Process</a></li>
                 <li><a href="#">Beyond The Badge</a></li>
-                <li><div class="primary-btn"><a class="contactbtn" href="#">Reach Us</a></div></li>
+                <li><div class="primary-btn"><a class="contactbtn" href="/contactus">Reach Us</a></div></li>
               </ul>   
             </div>
           </nav>

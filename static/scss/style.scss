@@ -280,6 +280,13 @@ header{
 }
 
 @media(max-width:1220px){
+    .contact-banner{
+        .menubars{
+            .text2{
+                padding-top: 0;
+            }
+        }
+    }
     .menubars{
         padding-top: 100px;
     }
@@ -565,3 +572,24 @@ header{
   } 
 
 }
+
+/*contact page*/
+.contact-banner{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: $primary-blue;
+    .banner-center{
+        font-family: $primary-font-family;
+        font-size: 35px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      img{
+          height: 350px;
+          opacity: 70%;
+      }
+  }
+ 
