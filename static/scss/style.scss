@@ -9,19 +9,6 @@ header{
     padding: 0 40px;
     margin: auto;
   }
-.content-summary{
-    padding: 50px 0;
-    p{
-        color: $primary-blue;
-        font-size: 18px;
-    }
-    h1{
-        color: $primary-blue;
-        padding: 10px 0 10px 0;
-        font-size:100px;
-        font-family:$logo-fontfamily;
-    }
-}
 
 
 
@@ -131,6 +118,55 @@ header{
 }
 
 }
+
+
+/*Content-1 Content-Summary*/
+
+
+.content-summary{
+    padding: 50px 0;
+    p{
+        color: $primary-blue;
+        font-size: 18px;
+    }
+    h1{
+        color: $primary-blue;
+        padding: 10px 0 10px 0;
+        font-size:100px;
+        font-family:$logo-fontfamily;
+    }
+}
+
+/*content-2 */
+.content-product-image{
+    padding-bottom: 50px;
+}
+.content-paragraphs{
+    color:$primary-blue;
+    font-size: 16px;
+    font-family:$primary-font-family;
+}
+.content-headings{
+    color:$primary-blue;
+    font-family:$logo-fontfamily;
+    font-size: 30px;
+}
+.primary-btns{
+            border: solid;
+            border-color:$primary-blue;
+            border-radius: 8px;
+            margin-left: 25px;
+            padding: 15px 20px;
+}
+
+
+
+
+
+
+
+
+
 
 /*Footer Is HEre*/
 .footr{
@@ -317,6 +353,13 @@ header{
 
 
 @media(max-width: 700px){
+
+.centered-content{
+    text-align:center;
+}
+.primary-btns{
+    padding: 15px 55px;
+}
 
 .banner{
     background-image: url(/theme_Penguin/static/src/images/Banner-Mobile-View.jpg);

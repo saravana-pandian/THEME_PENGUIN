@@ -1,0 +1,125 @@
+<odoo>
+    <template id="s_top_banner" name="Top Banner">
+    <section class="s_top_banner">
+            <link rel="stylesheet" type="text/css" href="/web/static/lib/fontawesome/css/font-awesome.css"/>
+          <div class="banner">
+            <div class="navbarscrol">
+		          <div class="menu-btn">
+                <a href="javascript:void(0);">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+            </div>
+		        <div class="menubars"> 
+		          <div class="text1">We are</div>
+		          <div class="text2">Penguin Apparels</div>
+		          <div class="text3">||</div>
+	          </div>
+          </div>
+    </section>
+</template>
+<template id="s_content_summary" name="content summary">
+    <section class="s_content_summary">
+           <div class="container">
+                <div class="content-summary">
+                    <p>1990,</p>
+                    <h1>Garmenting Solution For Generation </h1>
+                    <p>we are One of the leading apparels manufacturess in india, producing hihg qualityy garments for our customers. We offer a full scale manufacturing solution including a range of services</p>
+                </div>
+           </div>
+    </section>
+</template>
+
+<template id="s_content_product_offer" name="product offer">
+    <section class="centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="content-headings">Products That We Offers</h3>
+              <p class="content-paragraphs">It is With High Skill and almost attention to detail, we deliver a wide varity of Products in every segment we cater to. We are trusted by some of the biggest Barands in the apparel world</p>
+            </div>
+            <div class="col-lg-3 pt8 o_colored_level">
+              <p class="centered-content">
+                <a href="/contactus" class="primary-btns">Full Gallery</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+<template id="s_content_product" name="content product">
+      <section class="s_features pt32 pb32 o_colored_level">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Womens-Wear-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/Womens-Wear-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_Penguin/static/src/images/Womens-Wear-Mobile-View.png">
+                    <img class="content-product-image" src="/theme_Penguin/static/src/images/Womens-Wear-Web-View.png" alt="Womens Wear Product"/>
+                    </source>
+                </source>
+              </source>
+            </picture>
+                <h3 class="content-headings">Womens Wear</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Kids-wear-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/Kids-Wear-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_Penguin/static/src/images/Kids-Wear-Mobile-View.png">
+                    <img class="content-product-image" src="/theme_Penguin/static/src/images/Kids-Wear-Web-View.png" alt="Kids Wear Product"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+              <h3 class="content-headings">Kids Wear</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Mens-Wear-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_Penguin/static/src/images/Mens-Wear-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_Penguin/static/src/images/Mens-Wear-Mobile-View.png">
+                   <img class="content-product-image" src="/theme_Penguin/static/src/images/Mens-Wear-Web-View.png" alt="Mens Wear Product"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+               <h3 class="content-headings">Mens Wear</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+
+
+<template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Penguin.s_top_banner"
+                t-thumbnail="/theme_Penguin/static/src/images/Banner-Mobile-View.jpg"/>
+    </xpath>
+</template>
+<template id="place_intobar" inherit_id="website.snippets" name="Place into bars">
+    <xpath expr="//div[@id='snippet_content']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Penguin.s_content_summary"
+                t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
+    </xpath>
+</template>
+
+<template id="place_in_second" inherit_id="website.snippets" name="Place in second">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Penguin.s_content_product_offer"
+                t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
+    </xpath>
+</template>
+<template id="place_into_one" inherit_id="website.snippets" name="Place into one">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_Penguin.s_content_product"
+                t-thumbnail="/theme_Penguin/static/src/images/logos/Fabric-Logo.png"/>
+    </xpath>
+</template>
+
+
+
+
+</odoo>
